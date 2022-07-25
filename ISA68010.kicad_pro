@@ -326,6 +326,10 @@
       "SRAM"
     ],
     [
+      "1038eab5-308c-40be-ac9a-9b1bf491d95c",
+      "ClockGen"
+    ],
+    [
       "d75377c2-8e80-44be-a5c5-a22e3859d2fe",
       "CMod"
     ]
