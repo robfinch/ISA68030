@@ -3989,6 +3989,7 @@
   (no_connect (at 134.62 147.32) (uuid 90fad9a0-6cf8-4124-a93e-71ff3c39e517))
   (no_connect (at 134.62 152.4) (uuid 90fad9a0-6cf8-4124-a93e-71ff3c39e518))
   (no_connect (at 134.62 149.86) (uuid 90fad9a0-6cf8-4124-a93e-71ff3c39e519))
+  (no_connect (at 134.62 312.42) (uuid ce506709-003a-4925-9d7b-46bd69a8aebb))
   (no_connect (at 101.6 181.61) (uuid ce506709-003a-4925-9d7b-46bd69a8aebb))
   (no_connect (at 101.6 194.31) (uuid ce506709-003a-4925-9d7b-46bd69a8aebb))
   (no_connect (at 101.6 207.01) (uuid ce506709-003a-4925-9d7b-46bd69a8aebb))
@@ -12530,6 +12531,9 @@
     (path "/d75377c2-8e80-44be-a5c5-a22e3859d2fe/05a05f00-1ec8-4e44-9a3c-3b5c0d71d22e"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/9957abb0-b5bf-42c3-97c1-5fe27718e073/08c5fb25-223a-496d-8f1c-63d5b8bf9b68"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/0b2bdb57-5ea8-4afa-a121-2df9c8d45827"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
@@ -12798,6 +12802,9 @@
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/9957abb0-b5bf-42c3-97c1-5fe27718e073/b5ed6033-deb4-4acf-8c6e-99561e5a4396"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d75377c2-8e80-44be-a5c5-a22e3859d2fe/b86c57f1-494b-4f41-9f03-740ea0ed95dc"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/9957abb0-b5bf-42c3-97c1-5fe27718e073/b9188883-2ada-4b80-85fa-606412e00e0d"
@@ -13229,6 +13236,12 @@
     (path "/9957abb0-b5bf-42c3-97c1-5fe27718e073/1e9f4255-7335-459b-9285-59d66ea02016"
       (reference "U23") (unit 4) (value "74ACT04") (footprint "")
     )
+    (path "/9957abb0-b5bf-42c3-97c1-5fe27718e073/ed1406d1-2ecb-4ae5-a8b1-17c93b8a581c"
+      (reference "U23") (unit 5) (value "74ACT04") (footprint "")
+    )
+    (path "/9957abb0-b5bf-42c3-97c1-5fe27718e073/7ded3bd6-e352-433f-9e56-a4f3d1923642"
+      (reference "U23") (unit 6) (value "74ACT04") (footprint "")
+    )
     (path "/9957abb0-b5bf-42c3-97c1-5fe27718e073/0a9a0874-7a46-4bfe-a3bd-f2f07252563f"
       (reference "U23") (unit 7) (value "74ACT04") (footprint "")
     )
@@ -13270,6 +13283,12 @@
     )
     (path "/d75377c2-8e80-44be-a5c5-a22e3859d2fe/88f76091-d101-4e94-a8a6-7fe1cc12e80a"
       (reference "U40") (unit 4) (value "74LVC04") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    )
+    (path "/d75377c2-8e80-44be-a5c5-a22e3859d2fe/28c1f339-fa49-4bfa-8cc0-e3b83fc0a3dc"
+      (reference "U40") (unit 5) (value "74LVC04") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    )
+    (path "/d75377c2-8e80-44be-a5c5-a22e3859d2fe/7522616f-a6f9-467d-861a-e19a6414a9dd"
+      (reference "U40") (unit 6) (value "74LVC04") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d75377c2-8e80-44be-a5c5-a22e3859d2fe/7c708fbe-1747-4d48-81dd-5a02fbb56120"
       (reference "U40") (unit 7) (value "74LVC04") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
